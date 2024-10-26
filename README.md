@@ -8,9 +8,9 @@ Tecnologias a usar :
 - React 18
 
 ## Instalaciones
-https://spring.io/tools    <!--Spring Tools Suite v4.21.0.RELEASE-->
-https://nodejs.org/en/download/source-code  <!--node.js v20.18.0-->
-https://code.visualstudio.com/download      <!--visual code v1.94>
+-https://spring.io/tools    <!--Spring Tools Suite v4.21.0.RELEASE-->
+-https://nodejs.org/en/download/source-code  <!--node.js v20.18.0-->
+-https://code.visualstudio.com/download      <!--visual code v1.94>
 
 ## Instruccion 
 1.- descargar node.js (...next) 
