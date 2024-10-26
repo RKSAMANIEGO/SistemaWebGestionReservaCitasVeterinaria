@@ -2,7 +2,7 @@
 Sistema Web Gestion de Reservas Citas para una Veterinaria
 
 ## Tecnologias
-Las tecnologia a usar :
+Tecnologias a usar :
 - Spring Boot 3.3.4
 - Java 17
 - React 18
