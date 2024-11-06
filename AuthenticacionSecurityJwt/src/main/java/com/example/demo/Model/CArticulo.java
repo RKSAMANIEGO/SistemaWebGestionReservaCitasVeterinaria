@@ -34,8 +34,9 @@ public class CArticulo {
 	
 	private Integer stock;
 	
+	@Default
 	@Column(length = 255 )
-	private String imagen;
+	private String imagen="no_imagen.png";
 	
 	@Default
 	@Column(nullable=false)
