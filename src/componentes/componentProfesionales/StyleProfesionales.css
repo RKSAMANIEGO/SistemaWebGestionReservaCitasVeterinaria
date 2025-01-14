@@ -1,0 +1,39 @@
+
+
+/*Estilos para el consumo de Api*/
+.Container-Consumer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px;
+}
+.Caja-Veterinario{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;  
+  width: 400px;
+  height: 390px;
+  background-color: rgb(253, 253, 253);
+  border: solid 2px rgb(121, 90, 90);
+  border-radius: 210px;
+  padding: 10px;
+ 
+}
+.Container-Consumer .Consume-Api .Caja-Veterinario p{
+    margin: 5px;
+    line-height: 1.2;
+    color: rgb(185, 60, 175);
+}
+.Container-Consumer .Consume-Api .Caja-Veterinario h4{
+    padding-top: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Container-Contact .Consume-Api .Caja-Veterinario img {
+    max-width: 100%; /* Ajusta las imágenes dentro de las cajas */
+    height: auto;
+  }

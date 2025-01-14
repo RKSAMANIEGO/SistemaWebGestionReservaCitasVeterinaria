@@ -1,0 +1,79 @@
+.header-citas {
+    background-color: #87198d;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-citas h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-citas p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+
+  /*-----buscar----*/
+  .acciones-citas {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filtro-fecha, .filtro-estado, .btn-buscar {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-buscar {
+    background-color: #3c79ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-buscar:hover {
+    background-color: #3c79ce;
+  }
+/*-------TABLA------*/
+.tabla-citas {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .tabla-citas th, .tabla-citas td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tabla-citas th {
+    background-color: #3c79ce;
+    color: white;
+  }
+  
+  .tabla-citas tr:hover {
+    background-color: #d98cdb;
+    color: rgb(254, 254, 254);
+  }
+  
+  .btn-accion {
+    background-color: #2196f3;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-accion:hover {
+    background-color: #c962e2;
+  }

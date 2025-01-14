@@ -1,0 +1,90 @@
+/*estilos a la estructura*/
+.Container-Menu-Perfil{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.Container-Menu-Perfil .Container-Cuenta{
+    height: auto;
+    width: 35%;
+    border: 1px solid white;
+    margin-inline-end: 10px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.Container-Menu-Perfil .Container-Datos{
+    height: auto;
+    width: 65%;
+    border: 1px solid white;
+    margin-inline-start: 10px;
+    border-radius: 20px;
+    padding: 15px;
+}
+/*estilos a la seccion cuenta*/
+.Container-Perfil-Imagen .Imagen-Perfil{
+    margin-top: 20px;
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;
+}
+
+.Container-Perfil-Imagen .Logo-New-Imagen{
+    display: none;
+    width: 0px; 
+}
+.Container-Perfil-Imagen .custom-label{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-image: url(../../../pictures/newImg.png);
+    background-position: center; /* Centra la imagen horizontal y verticalmente */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; 
+    cursor: pointer;
+}
+.Container-Perfil-Imagen .custom-label:hover{
+    background-color: rgb(39, 38, 39);
+    border-radius: 10px;
+}
+
+.Container-Menu-Perfil .Container-Cuenta .Container-Perfil-Cuenta{
+    display: flex;
+    margin-top: 80px;
+}
+
+.Container-Menu-Perfil .Container-Cuenta .Container-Perfil-Cuenta .Container-Perfil-Campos{
+  width:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:12px;
+  padding: 5px;
+}
+
+.Container-Menu-Perfil .Container-Cuenta .Container-Perfil-Cuenta .Container-Perfil-Datos{
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+/*estilos contenedor datos*/
+.Container-Datos .datos-personales{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.Container-Datos .datos-personales input{
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   background-color: black;
+   color: wheat;
+  
+}
+.Container-Datos .datos-personales .Boton-Datos-Personales{
+    background-color: blue;
+}

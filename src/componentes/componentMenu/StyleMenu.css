@@ -1,0 +1,100 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Asegura que ocupe toda la pantalla */
+}
+
+/* Contenedor principal (layout) */
+.container {
+    display: flex;
+    height: 100vh; /* Toda la altura de la pantalla */
+    overflow: hidden; /* Evita scrolls adicionales */
+}
+
+/* Menú lateral */
+.menu-lateral {
+    width: 250px; /* Ancho del menú */
+    background: linear-gradient(30deg, rgb(42, 105, 164),  rgb(22, 114, 180),  rgb(139, 24, 159), rgb(139, 24, 159));
+    background-size: 200% 200%; /* Aumenta el tamaño para crear un efecto */
+    animation: gradient-animation 5s ease infinite;
+    color: white;
+    padding: 10px;
+    overflow-y: auto; /* Activa el scroll si el contenido excede la altura */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.menu-lateral img{
+margin: 0px 20px;
+
+}
+.menu-lateral h2{
+    text-align: center;
+    color: #bd9b51;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-lateral li {
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 0.5px solid  #ca64cd;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.menu-lateral li:hover {
+    background-color: #ab65b4;
+    border-radius: 10px;
+}
+
+/* Contenedor principal (main content) */
+.main-content {
+    flex: 1; /* Ocupa el espacio restante */
+    display: flex;
+    flex-direction: column; /* Para organizar encabezado y contenido */
+}
+
+/* Encabezado superior */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .usuario {
+    font-size: 16px;
+    color: #efeff0;
+}
+
+.header .apartado {
+    font-size: 22px;
+    
+    color: #ccac6d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Contenido principal */
+.contenido {
+    flex: 1; /* Ocupa el resto del espacio bajo el encabezado */
+    padding: 20px;
+    overflow-y: auto; /* Hace que el contenido sea desplazable */
+    background-color: #050505;/*#f8f9fa;*/
+    color: #ab65b4;
+}
+
+/*estilos para desabilitar los items del menu principal*/
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }

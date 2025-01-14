@@ -1,0 +1,63 @@
+.Footer{
+    background: linear-gradient(80deg, #cc3ab1, #9c36be, #18629f, #1852d0);
+    background-size: 200% 200%; /* Aumenta el tamaño para crear un efecto */
+    animation: gradient-animation 5s ease infinite;
+}
+
+.Footer-Context{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.Footer-Context div{
+    width: 270px;
+}
+.Footer-Context div ul li, p{
+    color: antiquewhite;
+}
+.Footer-Context div ul li, a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.Footer-Context div ul li:hover{
+    color: #b2b7c3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ a:hover{
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+}
+/*estilos para los iconos*/
+.Footer-Copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+.Footer-Copy .copy {
+    margin: 0;
+    text-align: left;
+    padding-inline-start: 10px;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.Footer-Icons {
+    padding-inline-end: 575px;
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Espacio entre los iconos */
+}
+
+.Footer-Copy a img{
+    width: 24px;
+    height: 24px;
+}
+.Footer-Copy a img:hover{
+    background-color: #a42ab4;
+}

@@ -1,0 +1,189 @@
+.container-Menu-Mascotas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-Menu-Mascotas .container-buscar-mascota{
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    gap: 15px;
+}
+.container-Menu-Mascotas .container-buscar-mascota .txt-buscar{
+    width: 300px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 10px;
+    padding: 0 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+.container-Menu-Mascotas .container-buscar-mascota .Boton-Buscar-Animal .logo-buscar{
+    border-radius: 20px;
+  
+}
+
+.container-Menu-Mascotas .container-add-mascota{
+    height: 300px;
+    width: 94%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+}
+.container-Menu-Mascotas .container-list-mascota{
+    background-color: rgb(176, 20, 150);
+    
+}
+
+/*ESTILO DEL FORMULARIO*/
+.container-Menu-Mascotas .container-add-mascota{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+.container-Menu-Mascotas .container-add-mascota .imagen-pet{
+    background-color: rgb(0, 0, 0);
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container-Menu-Mascotas .container-add-mascota .imagen-pet img{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    border-radius: 50px;
+    background-color: black;
+}
+
+
+.container-Menu-Mascotas .container-add-mascota .btn-crud{
+    background-color: aqua;
+    border-radius: 20px;
+    width: 100px;
+}
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota{
+    border-radius: 20px;
+    padding: 15px 15px;
+    
+    width:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota .campo-edad-sexo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota .campo-edad-sexo select{
+    padding: 5px 20px;
+    width: 200px;
+    margin-inline-start: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota input{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota .botones-crud{
+    margin-top: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota .botones-crud a:hover{
+    background-color: rgba(224, 210, 162, 0.983);
+    border-radius: 5px;
+}
+
+.container-Menu-Mascotas .container-add-mascota .formulario-mascota .botones-crud img{
+    width: 50px;
+    height: 100%;
+}
+/*TABLA*/
+.tabla-container {
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+  }
+  
+  /* Título */
+  .tabla-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #f1f1f1;
+  }
+  
+  /* Tabla */
+  .tabla-mascotas {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Encabezados */
+  .tabla-mascotas thead {
+    background-color: #3382b3;
+    color: rgb(251, 251, 251);
+  }
+  
+  .tabla-mascotas th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Filas */
+  .tabla-mascotas tr {
+    border-bottom: 1px solid #000000;
+  }
+  
+  .tabla-mascotas tr:nth-child(even) {
+    background-color: rgb(24, 23, 23);
+  }
+  
+  /* Celdas */
+  .tabla-mascotas td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Imagen */
+  .tabla-imagen {
+    width: 50px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover en filas */
+  .tabla-mascotas tr:hover {
+    background-color: #cb6dc9;
+    color: #f7f6f6;
+  }
+  
+  /* Scroll para tablas grandes */
+  .tabla-container {
+    overflow-x: auto;
+    width: 90%;
+  }
